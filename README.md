@@ -1,6 +1,11 @@
 Flask-LetsEncrypt
 =================
 
+[![Build
+Status](https://travis-ci.org/njoyce/flask-letsencrypt.svg?branch=master)](https://travis-ci.org/njoyce/flask-letsencrypt)
+[![Coverage
+Status](https://coveralls.io/repos/github/njoyce/flask-letsencrypt/badge.svg?branch=master)](https://coveralls.io/github/njoyce/flask-letsencrypt?branch=master)
+
 This Flask extension provides support for Let's Encrypt's ACME Simple Http
 challenge/response. It provides the Http server that will respond to requests
 from Let's Encrypt when it checks to ensure that you own the domain that you
