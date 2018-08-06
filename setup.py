@@ -11,6 +11,9 @@ def get_requirements(filename):
         session = PipSession()
 
     except ImportError:
+        from pip.download import PipSession
+        session = PipSession()
+    except:
         session = None
 
     reqs = parse_requirements(filename, session=session)
